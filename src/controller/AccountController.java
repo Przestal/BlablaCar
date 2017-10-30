@@ -33,6 +33,7 @@ public class AccountController {
         ArrayList<String> loginAndPasswordHolder = new ArrayList<>();
         loginAndPasswordHolder.add(0,login);
         loginAndPasswordHolder.add(0,password);
+        System.out.println(loginAndPasswordHolder.get(0));
 
     }
 
